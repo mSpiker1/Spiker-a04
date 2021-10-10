@@ -1,0 +1,22 @@
+@startuml
+class NameManager{
++void readToList(ArrayList<String>nameList)
++void writeNames(ArrayList<String>sortedNames)
+}
+note left of NameManager::"readToList"
+Method to read an input\nfile to an established arrayList
+end note
+note right of NameManager::"writeNames"
+Method to write an established\narrayList to an output file
+end note
+
+class Solution41{
++void main()
+}
+
+NameManager --* Solution41
+
+note right of Solution41::"main"
+main Method to call other functions together
+end note
+@enduml
