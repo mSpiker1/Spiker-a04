@@ -1,0 +1,7 @@
+
+ƒ
+java:S13191"hThe type of "nameList" should be an interface such as "List" rather than the implementation "ArrayList".(í¢©ûÿÿÿÿ
+
+java:S1319:"kThe type of "sortedNames" should be an interface such as "List" rather than the implementation "ArrayList".(½Óíš
+c
+java:S2095<"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(¤¼èœûÿÿÿÿ
