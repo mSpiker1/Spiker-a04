@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.EmployeeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-11T23:02:52" hostname="MATT-DESKTOP" time="0.019">
+  <properties/>
+  <testcase name="employeeTest()" classname="baseline.EmployeeTest" time="0.019"/>
+  <system-out><![CDATA[Ling      Mai       55900     
+Johnson   Jim       56500     
+Jones     Aaron     46000     
+Jones     Chris     34500     
+Swift     Geoffrey  14200     
+Xiong     Fong      65000     
+Zarnecki  Sabrina   51500     
+Zarnecki,Sabrina,51500]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

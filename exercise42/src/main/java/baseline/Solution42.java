@@ -25,7 +25,10 @@ public class Solution42 {
 //class to handle employee information
 class Employee{
     //method to print the employee data to the table in the console, takes a string to use as the file path/name
-    public void printEmployees(String fileLocale){
+    public String printEmployees(String fileLocale){
+        //create a string to return later for unit testing
+        String i = "";
+
         //open try statement to catch exceptions
         try {
             //create scanner object to read from the input file at fileLocale
@@ -34,7 +37,7 @@ class Employee{
             //open while loop to loop while until the next line of the input file is blank
             while(inFile.hasNext()) {
                 //create a string of the current line of the input file
-                String i = inFile.nextLine();
+                i = inFile.nextLine();
 
                 //create a string array of the previous string and split it apart using , as the separator
                 String[] empData = i.split(",");
@@ -46,5 +49,7 @@ class Employee{
         } catch (FileNotFoundException e) {
             System.out.print("File not found.");
         }
+        //return the string i for unit testing to ensure the while loop completed
+        return i;
     }
 }
