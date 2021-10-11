@@ -1,33 +1,31 @@
 /*
  *  UCF COP3330 Fall 2021 Assignment 4 Solutions
- *  Copyright 2021 Matthew Spiker
+ *  Copyright 2021 first_name last_name
  */
 
 package baseline;
+import java.util.Scanner;
 
 public class Solution42 {
-    //main method
     public static void main(String[] args){
-        //create class object emp to reference Employee class
+        //create a class object to reference class Employee
 
-        //create a constant String fileName "data\\exercise42_input.txt" to reference the input file later
+        //print the table header to the console (last, first, salary, indents, and hyphens to separate table elements)
 
-        //print the header for the table that should be output
-
-        //call printEmployees to read and output the information from the input file into the table properly
+        //call printEmployees to print the employee information to the table
     }
 }
 
-//class to manage employee information (parse, organize, and output)
-class Employee {
-    //method to print the information of the employees to the console from a file, will take in a string fileName
-    public void printEmployees(String fileName){
-        //open a try statement to contain file not found exceptions
+//class to handle employee information
+class Employee{
+    //method to print the employee data to the table in the console, takes a string to use as the file path/name
+    public void printEmployees(String fileLocale){
+        //open try statement to catch exceptions
+            //create scanner object to read from the input file at fileLocale
 
-            //create a file reader to read from fileName
-
-            //open a while loop to read through the file until the next line is blank
-                //create a string array of strings read from the current line, split into three strings by commas using split
-                //print the strings separately and spaced properly to the console
+            //open while loop to loop while until the next line of the input file is blank
+                //create a string of the current line of the input file
+                //create a string array of the previous string and split it apart using , as the separator
+                //print the string array contents spaced out appropriately to fit the table in the console
     }
 }
