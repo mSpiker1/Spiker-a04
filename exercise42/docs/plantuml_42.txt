@@ -9,10 +9,14 @@ class Employee{
 +String printEmployees(String fileLocale)
 }
 note left of Employee::"printEmployees"
-Method to read through an input\nfile of employee data and\nprint it out to a table\nin the console
+Method to read through an input
+file of employee data and
+print it out to a table\nin the console
 end note
 
 note right of Solution42::"main"
-main Method to call printEmployee and\nprint a header to create a table\nin the console
+main Method to call printEmployee and
+print a header to create a table
+in the console
 end note
 @enduml

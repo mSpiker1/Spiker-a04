@@ -4,10 +4,12 @@ class NameManager{
 +void writeNames(ArrayList<String>sortedNames)
 }
 note left of NameManager::"readToList"
-Method to read an input\nfile to an established arrayList
+Method to read an input
+file to an established arrayList
 end note
 note right of NameManager::"writeNames"
-Method to write an established\narrayList to an output file
+Method to write an established
+arrayList to an output file
 end note
 
 class Solution41{
