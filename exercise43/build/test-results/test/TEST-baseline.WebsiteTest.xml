@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.WebsiteTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-12T17:16:50" hostname="MATT-DESKTOP" time="0.02">
+  <properties/>
+  <testcase name="testFile()" classname="baseline.WebsiteTest" time="0.02"/>
+  <system-out><![CDATA[created testHTML\\index.html
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
