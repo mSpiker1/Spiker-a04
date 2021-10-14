@@ -1,0 +1,45 @@
+@startuml
+
+class Solution46{
++void main()
+}
+
+FileManager --* Solution46
+Histogram --* Solution46
+
+class FileManager{
++ArrayList<String> fileToString(String filePath)
+}
+
+class Histogram{
++int wordCounter(String search, ArrayList<String> wordList)
++void histPrint(Integer[] numWords, String[] wordOrder)
+}
+
+note left of FileManager::"fileToString"
+method that creates a string arraylist of
+every string (separated by spaces) in a
+text file and returns it.
+end note
+
+note right of Histogram::"wordCounter"
+method that takes in a string to search
+for and an arraylist to search through.
+returns an integer equal to how many times
+the search string pops up in the arraylist.
+end note
+
+note right of Histogram::"histPrint"
+method to print the final histogram based
+on how many times each word in wordOrder
+appears according to numWords.
+end note
+
+note right of Solution46::"main"
+method that builds the two arrays necessary
+for histPrint and calls other functions to
+do so, then calls histPrint to generate
+the final output to terminal.
+end note
+
+@enduml
