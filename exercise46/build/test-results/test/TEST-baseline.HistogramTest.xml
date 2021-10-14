@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.HistogramTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-14T15:50:36" hostname="MATT-DESKTOP" time="0.017">
+  <properties/>
+  <testcase name="testToArray()" classname="baseline.HistogramTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
