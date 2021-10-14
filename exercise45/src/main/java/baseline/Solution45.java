@@ -7,7 +7,7 @@ public class Solution45 {
     public static void main(String[] args){
         //create a class object fm to reference class FileManager
 
-        //create two constant File objects "filePath" to reference data\exercise45_input.txt and "outPath" for data\exercise45_output.txt
+        //create two constant Strings "filePath" to reference data\exercise45_input.txt and "outPath" for data\exercise45_output.txt
 
         //initialize a new arraylist "text" that calls fileToString at filePath for its value
 
@@ -17,7 +17,7 @@ public class Solution45 {
     }
 }
 
-//class to handle the input file
+//class to handle the input and output files
 class FileManager{
     //method to return an arraylist of the text in the input file
     void fileToString(String filePath){
