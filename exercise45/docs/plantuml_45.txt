@@ -1,0 +1,42 @@
+@startuml
+
+class Solution45{
++void main()
+}
+
+FileManager --* Solution45
+
+class FileManager{
++ArrayList<String> fileToString(String filePath)
++void replaceText(ArrayList<String> text, String toRemove, String toReplace)
++void writeOut(String outPath, ArrayList<String> text)
+}
+
+note left of FileManager::"fileToString"
+method that creates a string arraylist of
+every string (separated by spaces) in a
+text file and returns it.
+end note
+
+note right of FileManager::"replaceText"
+method that takes in a string arraylist and
+searches for a specific substring
+(toRemove). If it finds the substring, it
+replaces only the substring with a new
+string (toReplace) and then moves on until
+it reaches the end of the arraylist.
+end note
+
+note left of FileManager::"writeOut"
+method to write an arrayList to an output
+file at a specified path.
+end note
+
+note right of Solution45::"main"
+method that gets the desired name of the
+output file from the user and then calls
+all the functions to create it from the
+input file.
+end note
+
+@enduml
