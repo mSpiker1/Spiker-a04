@@ -1,0 +1,63 @@
+@startuml
+
+class Solution44{
++void main()
+}
+
+ProdBase --* "used by" Product
+Product --* "used by" JsonReader
+JsonReader --* Solution44 :called by
+ProductManager --* Solution44 :called by
+
+class ProdBase{
++String name
++double price
++int quantity
+}
+
+class Product{
++ProdBase[] products
+}
+
+class JsonReader{
++Product readJson(String filePath)
+}
+
+class ProductManager{
++boolean nameSearch(Product p, Scanner input)
+}
+
+note left of ProductManager::"nameSearch"
+Searches through a given Product array
+for a user input product, returns the
+product's attributes if found, otherwise
+keeps looping through until a product
+is successfully found from user input
+end note
+
+note right of JsonReader::"readJson"
+method to read a json file and store
+an object of type Products. returns an
+item of type Product to where it was
+called.
+end note
+
+note right of ProdBase
+Base of Products, contains variables
+pertinent to the products contained in
+Product.
+end note
+
+note right of Product
+Class containing information for an
+array of products. Allows an object
+containing an array of objects with
+a name, price, and quantity to be
+created and used.
+end note
+
+note left of Solution44
+main method to call other methods in the proper order
+end note
+
+@enduml

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.JsonReaderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-17T21:05:52" hostname="MATT-DESKTOP" time="0.043">
+  <properties/>
+  <testcase name="testSearch()" classname="baseline.JsonReaderTest" time="0.043"/>
+  <system-out><![CDATA[What was the product name? Name: Thing
+Price: 15.00
+Quantity: 5]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
