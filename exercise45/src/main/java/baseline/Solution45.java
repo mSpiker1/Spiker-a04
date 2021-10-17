@@ -35,6 +35,9 @@ public class Solution45 {
         //call replaceText with the text, "utilize", and "use" as parameters
         fm.replaceText(text, "utilize", "use");
 
+        //call replaceText with the same text, but with capitalization
+        fm.replaceText(text, "Utilize", "Use");
+
         //call writeOut to create the new output file with parameters outPath and text
         fm.writeOut(outPath, text);
     }
